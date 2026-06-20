@@ -1,78 +1,127 @@
 # 🩺 Kidney Analyzer
 
-A Machine Learning based web application that predicts the likelihood of Chronic Kidney Disease using patient health parameters.
+A Machine Learning-based web application for predicting the likelihood of Chronic Kidney Disease (CKD) using patient health parameters. The application provides a simple web interface where users can enter medical information and receive prediction results in real time.
 
-## 🚀 Features
+---
 
-- Predicts kidney disease risk using a trained ML model
-- User-friendly web interface built with Flask
+## 📌 Overview
+
+Chronic Kidney Disease is a serious health condition that often goes undetected in its early stages. This project uses a pre-trained Machine Learning model to analyze patient data and assist in preliminary kidney disease risk assessment.
+
+The application is built using Flask and integrates a trained model stored in a Pickle file for fast predictions.
+
+---
+
+## ✨ Features
+
+- Predicts the likelihood of Chronic Kidney Disease
+- User-friendly web interface
 - Real-time prediction results
-- Pre-trained model stored using Pickle
-- Lightweight and easy to deploy
+- Flask-based backend
+- Pre-trained Machine Learning model
+- Lightweight and easy to run locally
 
-## 🛠️ Technologies Used
+---
 
+## 🛠️ Tech Stack
+
+### Programming Language
 - Python
+
+### Framework
 - Flask
+
+### Libraries
 - Scikit-Learn
 - Pandas
 - NumPy
-- HTML/CSS
-- Pickle
+
+### Model Storage
+- Pickle (.pkl)
+
+### Version Control
+- Git & GitHub
+
+---
 
 ## 📂 Project Structure
 
-```
+```text
 KIDNEY-ANALYZER
 │
-├── analyzer.py
-├── kidney_model.pkl
-├── requirements.txt
-├── README.md
-└── Procfile
+├── analyzer.py           # Main Flask application
+├── kidney_model.pkl      # Trained ML model
+├── requirements.txt      # Project dependencies
+├── Procfile              # Deployment configuration
+├── README.md             # Project documentation
+└── kidney_app.log        # Application logs
 ```
 
-## ⚙️ Installation
+---
 
-Clone the repository:
+## ⚙️ Installation & Setup
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Rachana7856/KIDNEY-ANALYZER.git
 ```
 
-Navigate to the project:
+### 2. Navigate to the Project Directory
 
 ```bash
 cd KIDNEY-ANALYZER
 ```
 
-Install dependencies:
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application:
+### 4. Run the Application
 
 ```bash
 python analyzer.py
 ```
 
-Open your browser:
+### 5. Open in Browser
 
 ```text
 http://127.0.0.1:5000
 ```
 
+---
+
 ## 🎯 Use Case
 
-This project helps in the early prediction of Chronic Kidney Disease using machine learning techniques and can assist healthcare professionals in preliminary risk assessment.
+This project can assist healthcare professionals and students in understanding how Machine Learning can be applied to disease prediction systems. It demonstrates the integration of a trained ML model with a web application for real-time predictions.
 
-## 👩‍💻 Author
+---
+
+## 🚀 Future Enhancements
+
+- Improved user interface
+- Model performance visualization
+- Patient history tracking
+- Cloud deployment
+- Additional health prediction modules
+
+---
+
+## 👩‍💻 Maintainer
 
 **Rachana Mehta**
 
 GitHub: https://github.com/Rachana7856
 
 ---
-Forked from the original repository by j123s and maintained for learning and development purposes.
+
+## 🙏 Acknowledgement
+
+This repository is a fork of the original project developed by **j123s**.
+
+The project was successfully cloned, tested, documented, and maintained by **Rachana Mehta** for learning, experimentation, and understanding Machine Learning deployment using Flask.
+
+Original Repository:
+https://github.com/j123s/KIDNEY-ANALYZER
